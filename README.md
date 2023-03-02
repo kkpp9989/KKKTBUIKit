@@ -17,7 +17,7 @@ KKPodLib1 is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KKKTBUIKit'
+pod 'KKKTBAmityUIKit', '~> 1.0.6'
 ```
 
 ## Author
