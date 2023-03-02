@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'Update AmityUIKit'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kkpp9989' => 'ninratana.n@gmail.com' }
-  s.source           = { :git => 'https://github.com/kkpp9989/KKKTBUIKit', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kkpp9989/KKKTBUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   # s.source_files = 'AmityFramework/uikit.zip'
   # s.source = { :http => 'https://sdk.amity.co/sdk-release/ios-uikit/2.34.3/uikit.zip'}
   # s.preserve_path = 'AmityFramework/*'
-  s.ios.vendored_frameworks = 'AmityFramework/AmitySDK.xcframework', 'AmityFramework/AmityUIKit.xcframework'
+  s.ios.vendored_frameworks = 'AmitySDK.xcframework', 'AmityUIKit.xcframework'
 
   # s.resource_bundles = {
   #   'KKPodLib1' => ['KKPodLib1/Assets/*.png']
