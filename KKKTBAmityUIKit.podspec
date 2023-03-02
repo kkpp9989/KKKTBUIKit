@@ -11,8 +11,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
-  s.version          = '1.0.2'
-  s.summary          = 'Init AmityUIKit'
+  s.version          = '1.0.5'
+  s.summary          = 'Update AmityUIKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Custom AmityUIKit For ONE KrungThai APP'
 
-  s.homepage         = 'https://github.com/kkpp9989/Amity-Social-Cloud-UIKit-iOS-OpenSource'
+  s.homepage         = 'https://github.com/kkpp9989/KKKTBUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kkpp9989' => 'ninratana.n@gmail.com' }
-  s.source           = { :git => 'https://github.com/kkpp9989/Amity-Social-Cloud-UIKit-iOS-OpenSource.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kkpp9989/KKKTBUIKit', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
