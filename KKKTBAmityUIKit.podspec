@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
-  s.version          = '1.0.6'
+  s.version          = '1.0.9'
   s.summary          = 'Update AmityUIKit'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   # s.source_files = 'AmityFramework/uikit.zip'
   # s.source = { :http => 'https://sdk.amity.co/sdk-release/ios-uikit/2.34.3/uikit.zip'}
   # s.preserve_path = 'AmityFramework/*'
-  s.ios.vendored_frameworks = 'AmitySDK.xcframework', 'AmityUIKit.xcframework'
+  s.vendored_frameworks = 'AmityFramework/AmitySDK.xcframework', 'AmityFramework/AmityUIKit.xcframework'
 
   # s.resource_bundles = {
   #   'KKPodLib1' => ['KKPodLib1/Assets/*.png']
@@ -45,5 +45,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Realm', '~> 10.26.0'
+  s.dependency 'Realm', '~> 10.32.2'
 end
