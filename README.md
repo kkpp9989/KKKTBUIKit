@@ -17,7 +17,7 @@ KKKTBAmityUIKit is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KKKTBAmityUIKit', '~> 1.0.9'
+pod 'KKKTBAmityUIKit', '~> 1.1.0'
 ```
 
 ## Author
