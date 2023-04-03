@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'Update AmityUIKit Hide Share'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # s.source_files = 'AmityFramework/uikit.zip'
