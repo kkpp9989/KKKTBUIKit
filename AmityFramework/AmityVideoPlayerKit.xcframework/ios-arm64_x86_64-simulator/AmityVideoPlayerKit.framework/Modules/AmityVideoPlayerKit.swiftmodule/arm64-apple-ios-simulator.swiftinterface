@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AmityVideoPlayerKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AmitySDK
+@_exported import AmityVideoPlayerKit
+import Combine
+import CommonCrypto
+import Dispatch
+import Foundation
+import MobileCoreServices
+import MobileVLCKit
+import Realm/*.Realm*/
+import RealmSwift
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+public protocol AmityVideoPlayerDelegate : AnyObject {
+  func amityVideoPlayerMediaStateChanged(_ player: AmityVideoPlayerKit.AmityVideoPlayer)
+}
+public class AmityVideoPlayer {
+  weak public var delegate: (any AmityVideoPlayerKit.AmityVideoPlayerDelegate)?
+  public var mediaState: AmityVideoPlayerKit.AmityVideoPlayerMediaState {
+    get
+  }
+  public init(client: AmitySDK.AmityClient)
+  @objc deinit
+  public func play(_ stream: AmitySDK.AmityStream, completion: ((Swift.Result<Swift.Void, AmityVideoPlayerKit.AmityVideoPlayerError>) -> Swift.Void)?)
+  public var renderView: UIKit.UIView? {
+    get
+    set
+  }
+  public func stop()
+}
+public enum AmityVideoPlayerMediaState {
+  case stopped
+  case playing
+  public static func == (a: AmityVideoPlayerKit.AmityVideoPlayerMediaState, b: AmityVideoPlayerKit.AmityVideoPlayerMediaState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension RealmSwift.Realm {
+  public static func sessionRealm() throws -> RealmSwift.Realm
+}
+extension AmityVideoPlayerKit.AmityVideoPlayer {
+  public static func setup(client: AmitySDK.AmityClient)
+}
+public enum AmityVideoQuality {
+  case original
+  case FHD1080
+  case HD720
+  case SD480
+  public static func == (a: AmityVideoPlayerKit.AmityVideoQuality, b: AmityVideoPlayerKit.AmityVideoQuality) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class PlayerSession : RealmSwift.Object {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum AmityVideoPlayerError : Swift.Error {
+  case unableToFindLiveStreamURL
+  case general(any Swift.Error)
+}
+extension AmityVideoPlayerKit.AmityVideoPlayerMediaState : Swift.Equatable {}
+extension AmityVideoPlayerKit.AmityVideoPlayerMediaState : Swift.Hashable {}
+extension AmityVideoPlayerKit.AmityVideoQuality : Swift.Equatable {}
+extension AmityVideoPlayerKit.AmityVideoQuality : Swift.Hashable {}

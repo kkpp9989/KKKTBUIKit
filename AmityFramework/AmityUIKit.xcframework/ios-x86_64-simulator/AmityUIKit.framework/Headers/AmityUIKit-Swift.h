@@ -433,11 +433,11 @@ SWIFT_CLASS("_TtC10AmityUIKit34AmityCategoryPreviewViewController")
 
 
 
-
 @interface AmityCategoryPreviewViewController (SWIFT_EXTENSION(AmityUIKit)) <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @class UICollectionViewLayout;
@@ -572,7 +572,6 @@ SWIFT_CLASS("_TtC10AmityUIKit36AmityCommunityHomePageViewController")
 
 
 
-
 SWIFT_CLASS("_TtC10AmityUIKit42AmityCommunityMemberSettingsViewController")
 @interface AmityCommunityMemberSettingsViewController : AmityPageViewController
 - (void)viewDidLoad;
@@ -589,7 +588,6 @@ SWIFT_CLASS("_TtC10AmityUIKit42AmityCommunityMemberSettingsViewController")
 @interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UITextFieldDelegate>
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 @class UIImagePickerController;
 
@@ -622,14 +620,14 @@ SWIFT_PROTOCOL("_TtP10AmityUIKit21AmityTextViewDelegate_")
 @end
 
 
-@interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UICollectionViewDataSource>
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit))
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
-@interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit))
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -734,7 +732,6 @@ SWIFT_CLASS("_TtC10AmityUIKit23AmityFeedViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 
@@ -1188,7 +1185,6 @@ SWIFT_CLASS("_TtC10AmityUIKit30AmityPollCreatorViewController")
 
 
 
-
 @interface AmityPollCreatorViewController (SWIFT_EXTENSION(AmityUIKit)) <UITableViewDataSource>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -1201,6 +1197,7 @@ SWIFT_CLASS("_TtC10AmityUIKit30AmityPollCreatorViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
 
 
 
@@ -1291,18 +1288,18 @@ SWIFT_CLASS("_TtC10AmityUIKit29AmityPostGalleryTableViewCell")
 
 
 
-@interface AmityPostGalleryTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <AmityPhotoViewerControllerDelegate>
-- (void)photoViewerControllerDidEndPresentingAnimation:(AmityPhotoViewerController * _Nonnull)photoViewerController;
-- (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController didScrollToPhotoAt:(NSInteger)index;
-- (void)photoViewerControllerDidReceiveTapGesture:(AmityPhotoViewerController * _Nonnull)photoViewerController;
-@end
-
-
 @interface AmityPostGalleryTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <AmityPhotoViewerControllerDataSource>
 - (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController configureCell:(AmityPhotoCollectionViewCell * _Nonnull)cell forPhotoAt:(NSInteger)index;
 - (UIView * _Nullable)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController referencedViewForPhotoAt:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfItemsIn:(AmityPhotoViewerController * _Nonnull)photoViewerController SWIFT_WARN_UNUSED_RESULT;
 - (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController configurePhotoAt:(NSInteger)index withImageView:(UIImageView * _Nonnull)imageView;
+@end
+
+
+@interface AmityPostGalleryTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <AmityPhotoViewerControllerDelegate>
+- (void)photoViewerControllerDidEndPresentingAnimation:(AmityPhotoViewerController * _Nonnull)photoViewerController;
+- (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController didScrollToPhotoAt:(NSInteger)index;
+- (void)photoViewerControllerDidReceiveTapGesture:(AmityPhotoViewerController * _Nonnull)photoViewerController;
 @end
 
 
@@ -1386,6 +1383,7 @@ SWIFT_CLASS("_TtC10AmityUIKit26AmityPostPollTableViewCell")
 @interface AmityPostPollTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <UITableViewDataSource>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -1429,7 +1427,6 @@ SWIFT_CLASS("_TtC10AmityUIKit35AmityPostTargetPickerViewController")
 
 
 
-
 @interface AmityPostTextEditorViewController (SWIFT_EXTENSION(AmityUIKit))
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer * _Nonnull)gestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -1443,11 +1440,11 @@ SWIFT_CLASS("_TtC10AmityUIKit35AmityPostTargetPickerViewController")
 @end
 
 
+
 @interface AmityPostTextEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
-
 
 
 @interface AmityPostTextEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <AmityTextViewDelegate>
@@ -1462,6 +1459,7 @@ SWIFT_CLASS("_TtC10AmityUIKit35AmityPostTargetPickerViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
 
 
 
@@ -1486,6 +1484,33 @@ SWIFT_CLASS("_TtC10AmityUIKit37AmityPostViewAllCommentsTableViewCell")
 
 
 
+
+
+/// ViewPager which contains screen showing list of reaction users.
+SWIFT_CLASS("_TtC10AmityUIKit31AmityReactionPageViewController")
+@interface AmityReactionPageViewController : AmityPageViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+/// Class for showing list of users who created particular reaction.
+SWIFT_CLASS("_TtC10AmityUIKit32AmityReactionUsersViewController")
+@interface AmityReactionUsersViewController : AmityViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+@interface AmityReactionUsersViewController (SWIFT_EXTENSION(AmityUIKit)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didEndDisplayingCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
 
 
 /// Recent chat
@@ -1527,11 +1552,11 @@ SWIFT_CLASS("_TtC10AmityUIKit39AmityRecommendedCommunityViewController")
 @end
 
 
-
 @interface AmityRecommendedCommunityViewController (SWIFT_EXTENSION(AmityUIKit)) <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -1615,7 +1640,6 @@ SWIFT_CLASS("_TtC10AmityUIKit32AmityUserFollowersViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 
@@ -1734,7 +1758,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Settings * _
 
 
 
-
 @interface UIViewController (SWIFT_EXTENSION(AmityUIKit))
 /// Present a image picker
 /// \param imagePicker The image picker to present
@@ -1753,6 +1776,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Settings * _
 ///
 - (void)presentImagePicker:(AmityImagePickerController * _Nonnull)imagePicker animated:(BOOL)animated select:(void (^ _Nullable)(PHAsset * _Nonnull))select deselect:(void (^ _Nullable)(PHAsset * _Nonnull))deselect cancel:(void (^ _Nullable)(NSArray<PHAsset *> * _Nonnull))cancel finish:(void (^ _Nullable)(NSArray<PHAsset *> * _Nonnull))finish completion:(void (^ _Nullable)(void))completion;
 @end
+
 
 
 

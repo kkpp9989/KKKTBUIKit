@@ -1,0 +1,11 @@
+framework module AmityUIKitLiveStream {
+  umbrella header "AmityUIKitLiveStream.h"
+
+  export *
+  module * { export * }
+}
+
+module AmityUIKitLiveStream.Swift {
+  header "AmityUIKitLiveStream-Swift.h"
+  requires objc
+}

@@ -1,0 +1,1546 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityLiveVideoBroadcastKit",
+        "printedName": "AmityLiveVideoBroadcastKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveStreamBroadcastViewController",
+        "printedName": "LiveStreamBroadcastViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "destinationToUnwindBackAfterFinish",
+            "printedName": "destinationToUnwindBackAfterFinish",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvp",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvp",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvg",
+                "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvg",
+                "moduleName": "AmityUIKitLiveStream",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvs",
+                "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvs",
+                "moduleName": "AmityUIKitLiveStream",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvM",
+                "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC34destinationToUnwindBackAfterFinishSo06UIViewG0CSgvM",
+                "moduleName": "AmityUIKitLiveStream",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(client:targetId:targetType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveStreamBroadcastViewController",
+                "printedName": "AmityUIKitLiveStream.LiveStreamBroadcastViewController",
+                "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmityClient",
+                "printedName": "AmitySDK.AmityClient",
+                "usr": "s:8AmitySDK0A6ClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmityPostTargetType",
+                "printedName": "AmitySDK.AmityPostTargetType",
+                "usr": "s:8AmitySDK0A14PostTargetTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC6client8targetId0I4TypeAC0A3SDK0A6ClientC_SSSgAG0a10PostTargetK0Otcfc",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC6client8targetId0I4TypeAC0A3SDK0A6ClientC_SSSgAG0a10PostTargetK0Otcfc",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)viewDidLoad",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC11viewDidLoadyyF",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)viewDidAppear:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC13viewDidAppearyySbF",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveStreamBroadcastViewController",
+                "printedName": "AmityUIKitLiveStream.LiveStreamBroadcastViewController",
+                "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "textViewDidChangeSelection",
+            "printedName": "textViewDidChangeSelection(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmityTextView",
+                "printedName": "AmityUIKit.AmityTextView",
+                "usr": "c:@M@AmityUIKit@objc(cs)AmityTextView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)textViewDidChangeSelection:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC04textF18DidChangeSelectionyy0aB00a4TextF0CF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "textViewDidChangeSelection:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textView",
+            "printedName": "textView(_:shouldChangeTextIn:replacementText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmityTextView",
+                "printedName": "AmityUIKit.AmityTextView",
+                "usr": "c:@M@AmityUIKit@objc(cs)AmityTextView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)textView:shouldChangeTextIn:replacementText:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC04textF0_18shouldChangeTextIn011replacementK0Sb0aB00akF0C_So8_NSRangeVSStF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "textView:shouldChangeTextIn:replacementText:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldShouldReturn",
+            "printedName": "textFieldShouldReturn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)textFieldShouldReturn:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC21textFieldShouldReturnySbSo06UITextI0CF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "textFieldShouldReturn:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textField",
+            "printedName": "textField(_:shouldChangeCharactersIn:replacementString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)textField:shouldChangeCharactersInRange:replacementString:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC9textField_24shouldChangeCharactersIn17replacementStringSbSo06UITextI0C_So8_NSRangeVSStF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "textField:shouldChangeCharactersInRange:replacementString:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amityStreamBroadcasterDidUpdateState",
+            "printedName": "amityStreamBroadcasterDidUpdateState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmityStreamBroadcaster",
+                "printedName": "AmityLiveVideoBroadcastKit.AmityStreamBroadcaster",
+                "usr": "c:@M@AmityLiveVideoBroadcastKit@objc(cs)AmityStreamBroadcaster"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC05amityD25BroadcasterDidUpdateStateyy0ac5VideoE3Kit0adI0CF",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC05amityD25BroadcasterDidUpdateStateyy0ac5VideoE3Kit0adI0CF",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didGetUsers",
+            "printedName": "didGetUsers(users:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AmityUIKit.AmityMentionUserModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AmityMentionUserModel",
+                    "printedName": "AmityUIKit.AmityMentionUserModel",
+                    "usr": "s:10AmityUIKit0A16MentionUserModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC11didGetUsers5usersySay0aB00A16MentionUserModelVG_tF",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC11didGetUsers5usersySay0aB00A16MentionUserModelVG_tF",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCreateAttributedString",
+            "printedName": "didCreateAttributedString(attributedString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC25didCreateAttributedString010attributedK0ySo012NSAttributedK0C_tF",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC25didCreateAttributedString010attributedK0ySo012NSAttributedK0C_tF",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMentionsReachToMaximumLimit",
+            "printedName": "didMentionsReachToMaximumLimit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC30didMentionsReachToMaximumLimityyF",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC30didMentionsReachToMaximumLimityyF",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCharactersReachToMaximumLimit",
+            "printedName": "didCharactersReachToMaximumLimit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AmityUIKitLiveStream0cD23BroadcastViewControllerC32didCharactersReachToMaximumLimityyF",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC32didCharactersReachToMaximumLimityyF",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC05tableF0_21numberOfRowsInSectionSiSo07UITableF0C_SitF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC05tableF0_12cellForRowAtSo07UITableF4CellCSo0mF0C_10Foundation9IndexPathVtF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:heightForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)tableView:heightForRowAtIndexPath:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC05tableF0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableF0C_10Foundation9IndexPathVtF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "tableView:heightForRowAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:didSelectRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)tableView:didSelectRowAtIndexPath:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC05tableF0_14didSelectRowAtySo07UITableF0C_10Foundation9IndexPathVtF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "tableView:didSelectRowAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:willDisplay:forRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)tableView:willDisplayCell:forRowAtIndexPath:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC05tableF0_11willDisplay8forRowAtySo07UITableF0C_So0nF4CellC10Foundation9IndexPathVtF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "tableView:willDisplayCell:forRowAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerController",
+            "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoKey",
+                    "printedName": "UIKit.UIImagePickerController.InfoKey",
+                    "usr": "c:@T@UIImagePickerControllerInfoKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController(im)imagePickerController:didFinishPickingMediaWithInfo:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC011imagePickerG0_29didFinishPickingMediaWithInfoySo07UIImageiG0C_SDySo0pigO3KeyaypGtF",
+            "moduleName": "AmityUIKitLiveStream",
+            "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamBroadcastViewController",
+        "mangledName": "$s20AmityUIKitLiveStream0cD23BroadcastViewControllerC",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AmityTextViewDelegate",
+            "printedName": "AmityTextViewDelegate",
+            "usr": "c:@M@AmityUIKit@objc(pl)AmityTextViewDelegate",
+            "mangledName": "$s10AmityUIKit0A16TextViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AmityStreamBroadcasterDelegate",
+            "printedName": "AmityStreamBroadcasterDelegate",
+            "usr": "s:26AmityLiveVideoBroadcastKit0A25StreamBroadcasterDelegateP",
+            "mangledName": "$s26AmityLiveVideoBroadcastKit0A25StreamBroadcasterDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AmityMentionManagerDelegate",
+            "printedName": "AmityMentionManagerDelegate",
+            "usr": "s:10AmityUIKit0A22MentionManagerDelegateP",
+            "mangledName": "$s10AmityUIKit0A22MentionManagerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityVideoPlayerKit",
+        "printedName": "AmityVideoPlayerKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveStreamPlayerViewController",
+        "printedName": "LiveStreamPlayerViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(streamIdToWatch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveStreamPlayerViewController",
+                "printedName": "AmityUIKitLiveStream.LiveStreamPlayerViewController",
+                "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20AmityUIKitLiveStream0cD20PlayerViewControllerC15streamIdToWatchACSS_tcfc",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC15streamIdToWatchACSS_tcfc",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController(im)viewDidLoad",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC11viewDidLoadyyF",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveStreamPlayerViewController",
+                "printedName": "AmityUIKitLiveStream.LiveStreamPlayerViewController",
+                "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "amityVideoPlayerMediaStateChanged",
+            "printedName": "amityVideoPlayerMediaStateChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmityVideoPlayer",
+                "printedName": "AmityVideoPlayerKit.AmityVideoPlayer",
+                "usr": "s:19AmityVideoPlayerKit0abC0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AmityUIKitLiveStream0cD20PlayerViewControllerC010amityVideoE17MediaStateChangedyy0aiE3Kit0aiE0CF",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC010amityVideoE17MediaStateChangedyy0aiE3Kit0aiE0CF",
+            "moduleName": "AmityUIKitLiveStream",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController",
+        "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AmityVideoPlayerDelegate",
+            "printedName": "AmityVideoPlayerDelegate",
+            "usr": "s:19AmityVideoPlayerKit0abC8DelegateP",
+            "mangledName": "$s19AmityVideoPlayerKit0abC8DelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/New Group\/LiveStreamBroadcastViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1382,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/New Group\/LiveStreamBroadcastViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/New Group\/LiveStreamBroadcastViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4023,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/New Group\/LiveStreamBroadcastViewController.swift",
+      "kind": "Array",
+      "offset": 4081,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/New Group\/LiveStreamBroadcastViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 33,
+      "value": "\"AmityUIKitLiveStream.LiveStreamBroadcastViewController\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Broadcast\/Go Live\/CreateStream.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 12,
+      "value": "\"AmityUIKitLiveStream.CreateStream\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Broadcast\/Go Live\/CreatePost.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 10,
+      "value": "\"AmityUIKitLiveStream.CreatePost\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Broadcast\/Go Live\/UploadCoverImage.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 16,
+      "value": "\"AmityUIKitLiveStream.UploadCoverImage\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Player\/LiveStreamPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Player\/LiveStreamPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2219,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Player\/LiveStreamPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 30,
+      "value": "\"AmityUIKitLiveStream.LiveStreamPlayerViewController\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Operation\/AsyncOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 27,
+      "value": "\"co.amity.uikit-livestream\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Operation\/AsyncOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Operation\/AsyncOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 824,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

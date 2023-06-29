@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AmityUIKitLiveStream
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AmityLiveVideoBroadcastKit
+import AmitySDK
+import AmityUIKit
+@_exported import AmityUIKitLiveStream
+import AmityVideoPlayerKit
+import Foundation
+import MobileCoreServices
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class LiveStreamBroadcastViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak final public var destinationToUnwindBackAfterFinish: UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) public init(client: AmitySDK.AmityClient, targetId: Swift.String?, targetType: AmitySDK.AmityPostTargetType)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : AmityUIKit.AmityTextViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func textViewDidChangeSelection(_ textView: AmityUIKit.AmityTextView)
+  @_Concurrency.MainActor(unsafe) @objc final public func textView(_ textView: AmityUIKit.AmityTextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc final public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : AmityLiveVideoBroadcastKit.AmityStreamBroadcasterDelegate {
+  @_Concurrency.MainActor(unsafe) final public func amityStreamBroadcasterDidUpdateState(_ broadcaster: AmityLiveVideoBroadcastKit.AmityStreamBroadcaster)
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : AmityUIKit.AmityMentionManagerDelegate {
+  @_Concurrency.MainActor(unsafe) final public func didGetUsers(users: [AmityUIKit.AmityMentionUserModel])
+  @_Concurrency.MainActor(unsafe) final public func didCreateAttributedString(attributedString: Foundation.NSAttributedString)
+  @_Concurrency.MainActor(unsafe) final public func didMentionsReachToMaximumLimit()
+  @_Concurrency.MainActor(unsafe) final public func didCharactersReachToMaximumLimit()
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : UIKit.UINavigationControllerDelegate {
+}
+extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : UIKit.UIImagePickerControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LiveStreamPlayerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init(streamIdToWatch: Swift.String)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+}
+extension AmityUIKitLiveStream.LiveStreamPlayerViewController : AmityVideoPlayerKit.AmityVideoPlayerDelegate {
+  @_Concurrency.MainActor(unsafe) public func amityVideoPlayerMediaStateChanged(_ player: AmityVideoPlayerKit.AmityVideoPlayer)
+}

@@ -1,0 +1,11 @@
+framework module AmityLiveVideoBroadcastKit {
+  umbrella header "AmityLiveVideoBroadcastKit.h"
+
+  export *
+  module * { export * }
+}
+
+module AmityLiveVideoBroadcastKit.Swift {
+  header "AmityLiveVideoBroadcastKit-Swift.h"
+  requires objc
+}
