@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'Update AmityUIKit Hide Share'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   # s.source_files = 'AmityFramework/uikit.zip'
   # s.source = { :http => 'https://sdk.amity.co/sdk-release/ios-uikit/2.34.3/uikit.zip'}
   # s.preserve_path = 'AmityFramework/*'
-  s.vendored_frameworks = 'AmityFramework/AmitySDK.xcframework', 'AmityFramework/AmityUIKit.xcframework'
+  s.vendored_frameworks = 'AmityFramework/AmitySDK.xcframework', 'AmityFramework/AmityUIKit.xcframework', 'AmityFramework/AmityLiveVideoBroadcastKit.xcframework', 'AmityFramework/AmityUIKitLiveStream.xcframework', 'AmityFramework/AmityVideoPlayerKit.xcframework', 'AmityFramework/Realm.xcframework', 'AmityFramework/RealmSwift.xcframework'
 
   # s.resource_bundles = {
   #   'KKPodLib1' => ['KKPodLib1/Assets/*.png']
@@ -46,5 +46,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Realm', '~> 10.32.2'
+  # s.dependency 'MobileVLCKit', '~> 10.32.2'
+  s.dependency 'MobileVLCKit'
 end
