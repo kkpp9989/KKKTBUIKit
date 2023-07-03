@@ -49,6 +49,7 @@ extension AmityUIKit.AmityMyCommunityViewController : AmityUIKit.AmityCommunityP
   @_Concurrency.MainActor(unsafe) final public let newsFeedVC: AmityUIKit.AmityNewsfeedViewController
   @_Concurrency.MainActor(unsafe) final public let exploreVC: AmityUIKit.AmityCommunityExplorerViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public static func make() -> AmityUIKit.AmityCommunityHomePageViewController
   @objc deinit
 }
@@ -398,6 +399,7 @@ extension AmityUIKit.AmityFollowRequestsViewController : UIKit.UITableViewDataSo
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AmityPollCreatorViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public static func make(postTarget: AmityUIKit.AmityPostTarget) -> AmityUIKit.AmityPollCreatorViewController
   @_Concurrency.MainActor(unsafe) @objc override final public func didTapLeftBarButton()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -899,6 +901,7 @@ public protocol AmityFeedDataSource : AnyObject {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class AmityPostTargetPickerViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) public static func make(postContentType: AmityUIKit.AmityPostContentType = .post) -> AmityUIKit.AmityPostTargetPickerViewController
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension AmityUIKit.AmityPostTargetPickerViewController : UIKit.UITableViewDataSource {
@@ -1087,6 +1090,7 @@ public protocol BottomSheetComponent : UIKit.UIView {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AmityCategoryListViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) public static func make() -> AmityUIKit.AmityCategoryListViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension AmityUIKit.AmityCategoryListViewController : UIKit.UITableViewDataSource {
@@ -1366,6 +1370,7 @@ public enum AmityPostTarget {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AmityCategoryCommunityListViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) public static func make(categoryId: Swift.String) -> AmityUIKit.AmityCategoryCommunityListViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension AmityUIKit.AmityCategoryCommunityListViewController : UIKit.UITableViewDataSource {
@@ -1426,6 +1431,7 @@ open class AmityChannelEventHandler {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AmityCommunityMemberSettingsViewController : AmityUIKit.AmityPageViewController {
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public static func make(community: AmitySDK.AmityCommunity) -> AmityUIKit.AmityCommunityMemberSettingsViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -1454,6 +1460,7 @@ extension AmityUIKit.AmityCommunityProfileEditorViewControllerDelegate {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AmityCommunityProfileEditorViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: AmityUIKit.AmityCommunityProfileEditorViewControllerDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override public func didTapLeftBarButton()
   @objc deinit
 }
@@ -2030,6 +2037,7 @@ extension AmityUIKit.AmityPostDetailViewController : AmityUIKit.AmityMentionMana
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AmityMemberPickerViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) final public var selectUsersHandler: (([AmityUIKit.AmitySelectMemberModel]) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public static func make(withCurrentUsers users: [AmityUIKit.AmitySelectMemberModel] = []) -> AmityUIKit.AmityMemberPickerViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -2090,6 +2098,7 @@ extension UIKit.UILabel {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AmityCategoryPickerViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) public static func make(referenceCategoryId: Swift.String? = nil) -> AmityUIKit.AmityCategoryPickerViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension AmityUIKit.AmityCategoryPickerViewController : UIKit.UITableViewDataSource {
@@ -2157,6 +2166,7 @@ public class AmityPostEditorSettings {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AmityPostTextEditorViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override public func didTapLeftBarButton()
   @objc deinit
 }
@@ -2392,6 +2402,7 @@ public struct AmityIconSet {
   public static var iconRadioOn: UIKit.UIImage?
   public static var iconRadioOff: UIKit.UIImage?
   public static var iconRadioCheck: UIKit.UIImage?
+  public static var iconRadioCheckOff: UIKit.UIImage?
   public static var iconPollOptionAdd: UIKit.UIImage?
   public static var iconDropdown: UIKit.UIImage?
   public static var iconDownChevron: UIKit.UIImage?

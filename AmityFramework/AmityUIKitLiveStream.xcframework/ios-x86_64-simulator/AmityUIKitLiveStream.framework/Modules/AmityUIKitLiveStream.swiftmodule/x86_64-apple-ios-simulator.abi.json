@@ -1024,8 +1024,45 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AmityUIKitLiveStream",
         "declAttributes": [
@@ -1132,6 +1169,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKitLiveStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AmitySDK",
         "printedName": "AmitySDK",
         "declKind": "Import",
@@ -1176,7 +1223,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(streamIdToWatch:)",
+            "printedName": "init(streamIdToWatch:postID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1189,11 +1236,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20AmityUIKitLiveStream0cD20PlayerViewControllerC15streamIdToWatchACSS_tcfc",
-            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC15streamIdToWatchACSS_tcfc",
+            "usr": "s:20AmityUIKitLiveStream0cD20PlayerViewControllerC15streamIdToWatch6postIDACSS_SStcfc",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC15streamIdToWatch6postIDACSS_SStcfc",
             "moduleName": "AmityUIKitLiveStream",
             "declAttributes": [
               "Custom",
@@ -1218,6 +1271,70 @@
             "moduleName": "AmityUIKitLiveStream",
             "overriding": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController(im)viewWillAppear:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKitLiveStream@objc(cs)LiveStreamPlayerViewController(im)viewDidDisappear:",
+            "mangledName": "$s20AmityUIKitLiveStream0cD20PlayerViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "AmityUIKitLiveStream",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1487,11 +1604,200 @@
       "value": "\"AmityUIKitLiveStream.CreateStream\""
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/NetworkManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 198,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/NetworkManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 248,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 9,
+      "value": "\"CONNECT\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 9,
+      "value": "\"OPTIONS\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 7,
+      "value": "\"TRACE\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 9,
+      "value": "\"CONNECT\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 9,
+      "value": "\"OPTIONS\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 7,
+      "value": "\"TRACE\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "Array",
+      "offset": 798,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "Dictionary",
+      "offset": 833,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestMeta.swift",
+      "kind": "Array",
+      "offset": 910,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/URLEnpointManager.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 25,
+      "value": "\"https:\/\/www.google.com\/\""
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Broadcast\/Go Live\/CreatePost.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 10,
       "value": "\"AmityUIKitLiveStream.CreatePost\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Utils\/Service\/Request\/RequestError.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Broadcast\/Go Live\/UploadCoverImage.swift",
@@ -1503,14 +1809,14 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Player\/LiveStreamPlayerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1903,
+      "offset": 2175,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKitLiveStream\/AmityUIKitLiveStream\/Player\/LiveStreamPlayerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2219,
+      "offset": 2491,
       "length": 4,
       "value": "true"
     },

@@ -273,6 +273,7 @@ SWIFT_CLASS("_TtC20AmityUIKitLiveStream33LiveStreamBroadcastViewController")
 
 
 
+
 @class UIImagePickerController;
 
 @interface LiveStreamBroadcastViewController (SWIFT_EXTENSION(AmityUIKitLiveStream)) <UIImagePickerControllerDelegate>
@@ -281,14 +282,11 @@ SWIFT_CLASS("_TtC20AmityUIKitLiveStream33LiveStreamBroadcastViewController")
 
 
 
+@class AmityTextView;
 
-@class UITableView;
-@class NSIndexPath;
-@class UITableViewCell;
-
-@interface LiveStreamBroadcastViewController (SWIFT_EXTENSION(AmityUIKitLiveStream)) <UITableViewDataSource>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@interface LiveStreamBroadcastViewController (SWIFT_EXTENSION(AmityUIKitLiveStream)) <AmityTextViewDelegate>
+- (void)textViewDidChangeSelection:(AmityTextView * _Nonnull)textView;
+- (BOOL)textView:(AmityTextView * _Nonnull)textView shouldChangeTextIn:(NSRange)range replacementText:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UITextField;
@@ -298,11 +296,13 @@ SWIFT_CLASS("_TtC20AmityUIKitLiveStream33LiveStreamBroadcastViewController")
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class AmityTextView;
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
 
-@interface LiveStreamBroadcastViewController (SWIFT_EXTENSION(AmityUIKitLiveStream)) <AmityTextViewDelegate>
-- (void)textViewDidChangeSelection:(AmityTextView * _Nonnull)textView;
-- (BOOL)textView:(AmityTextView * _Nonnull)textView shouldChangeTextIn:(NSRange)range replacementText:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
+@interface LiveStreamBroadcastViewController (SWIFT_EXTENSION(AmityUIKitLiveStream)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -322,8 +322,11 @@ SWIFT_CLASS("_TtC20AmityUIKitLiveStream30LiveStreamPlayerViewController")
 @interface LiveStreamPlayerViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 

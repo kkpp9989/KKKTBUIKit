@@ -355,6 +355,7 @@ SWIFT_CLASS("_TtC10AmityUIKit40AmityCategoryCommunityListViewController")
 @interface AmityCategoryCommunityListViewController : AmityViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -383,6 +384,7 @@ SWIFT_CLASS("_TtC10AmityUIKit31AmityCategoryListViewController")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -405,6 +407,7 @@ SWIFT_CLASS("_TtC10AmityUIKit33AmityCategoryPickerViewController")
 @interface AmityCategoryPickerViewController : AmityViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -518,6 +521,7 @@ SWIFT_CLASS("_TtC10AmityUIKit32AmityCommentEditorViewController")
 SWIFT_CLASS("_TtC10AmityUIKit41AmityCommunityProfileEditorViewController")
 @interface AmityCommunityProfileEditorViewController : AmityViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)didTapLeftBarButton;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
@@ -567,6 +571,7 @@ SWIFT_CLASS("_TtC10AmityUIKit36AmityCommunityHomePageViewController")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -575,10 +580,10 @@ SWIFT_CLASS("_TtC10AmityUIKit36AmityCommunityHomePageViewController")
 SWIFT_CLASS("_TtC10AmityUIKit42AmityCommunityMemberSettingsViewController")
 @interface AmityCommunityMemberSettingsViewController : AmityPageViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 
@@ -588,6 +593,7 @@ SWIFT_CLASS("_TtC10AmityUIKit42AmityCommunityMemberSettingsViewController")
 @interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UITextFieldDelegate>
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 @class UIImagePickerController;
 
@@ -620,14 +626,14 @@ SWIFT_PROTOCOL("_TtP10AmityUIKit21AmityTextViewDelegate_")
 @end
 
 
-@interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit))
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 @interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface AmityCommunityProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit))
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -877,6 +883,7 @@ SWIFT_CLASS("_TtC10AmityUIKit25AmityImagePickerImageView")
 SWIFT_CLASS("_TtC10AmityUIKit31AmityMemberPickerViewController")
 @interface AmityMemberPickerViewController : AmityViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1176,6 +1183,7 @@ SWIFT_PROTOCOL("_TtP10AmityUIKit34AmityPhotoViewerControllerDelegate_")
 SWIFT_CLASS("_TtC10AmityUIKit30AmityPollCreatorViewController")
 @interface AmityPollCreatorViewController : AmityViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)didTapLeftBarButton;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -1205,6 +1213,7 @@ SWIFT_CLASS("_TtC10AmityUIKit33AmityPostTextEditorViewController")
 @interface AmityPostTextEditorViewController : AmityViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)didTapLeftBarButton;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
@@ -1288,18 +1297,18 @@ SWIFT_CLASS("_TtC10AmityUIKit29AmityPostGalleryTableViewCell")
 
 
 
+@interface AmityPostGalleryTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <AmityPhotoViewerControllerDelegate>
+- (void)photoViewerControllerDidEndPresentingAnimation:(AmityPhotoViewerController * _Nonnull)photoViewerController;
+- (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController didScrollToPhotoAt:(NSInteger)index;
+- (void)photoViewerControllerDidReceiveTapGesture:(AmityPhotoViewerController * _Nonnull)photoViewerController;
+@end
+
+
 @interface AmityPostGalleryTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <AmityPhotoViewerControllerDataSource>
 - (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController configureCell:(AmityPhotoCollectionViewCell * _Nonnull)cell forPhotoAt:(NSInteger)index;
 - (UIView * _Nullable)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController referencedViewForPhotoAt:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfItemsIn:(AmityPhotoViewerController * _Nonnull)photoViewerController SWIFT_WARN_UNUSED_RESULT;
 - (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController configurePhotoAt:(NSInteger)index withImageView:(UIImageView * _Nonnull)imageView;
-@end
-
-
-@interface AmityPostGalleryTableViewCell (SWIFT_EXTENSION(AmityUIKit)) <AmityPhotoViewerControllerDelegate>
-- (void)photoViewerControllerDidEndPresentingAnimation:(AmityPhotoViewerController * _Nonnull)photoViewerController;
-- (void)photoViewerController:(AmityPhotoViewerController * _Nonnull)photoViewerController didScrollToPhotoAt:(NSInteger)index;
-- (void)photoViewerControllerDidReceiveTapGesture:(AmityPhotoViewerController * _Nonnull)photoViewerController;
 @end
 
 
@@ -1406,6 +1415,7 @@ SWIFT_CLASS("_TtC10AmityUIKit35AmityPostTargetPickerViewController")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -1427,6 +1437,7 @@ SWIFT_CLASS("_TtC10AmityUIKit35AmityPostTargetPickerViewController")
 
 
 
+
 @interface AmityPostTextEditorViewController (SWIFT_EXTENSION(AmityUIKit))
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer * _Nonnull)gestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -1438,7 +1449,6 @@ SWIFT_CLASS("_TtC10AmityUIKit35AmityPostTargetPickerViewController")
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 @interface AmityPostTextEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -1659,10 +1669,10 @@ SWIFT_CLASS("_TtC10AmityUIKit36AmityUserProfileEditorViewController")
 @end
 
 
+
 @interface AmityUserProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <AmityTextViewDelegate>
 - (void)textViewDidChange:(AmityTextView * _Nonnull)textView;
 @end
-
 
 
 @interface AmityUserProfileEditorViewController (SWIFT_EXTENSION(AmityUIKit)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -1722,6 +1732,7 @@ SWIFT_CLASS("_TtC10AmityUIKit25BottomSheetViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

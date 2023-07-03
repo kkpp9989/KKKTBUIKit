@@ -787,6 +787,38 @@
           },
           {
             "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityCommunityHomePageViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A31CommunityHomePageViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "make",
             "printedName": "make()",
             "children": [
@@ -12809,6 +12841,38 @@
               "Override",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityPollCreatorViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A25PollCreatorViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -28444,6 +28508,38 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityPostTargetPickerViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A30PostTargetPickerViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
@@ -34795,6 +34891,38 @@
               "Override",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityCategoryListViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A26CategoryListViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -43252,6 +43380,38 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityCategoryCommunityListViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A35CategoryCommunityListViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
@@ -45265,6 +45425,38 @@
           },
           {
             "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityCommunityMemberSettingsViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A37CommunityMemberSettingsViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "make",
             "printedName": "make(community:)",
             "children": [
@@ -46153,6 +46345,38 @@
             "moduleName": "AmityUIKit",
             "overriding": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityCommunityProfileEditorViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A36CommunityProfileEditorViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -62193,6 +62417,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmityUIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmityUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "AmitySDK",
         "printedName": "AmitySDK",
         "declKind": "Import",
@@ -63949,6 +64190,38 @@
             "moduleName": "AmityUIKit",
             "overriding": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityMemberPickerViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A26MemberPickerViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
             "declAttributes": [
               "Final",
               "ObjC",
@@ -65810,6 +66083,38 @@
               "Override",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityCategoryPickerViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A28CategoryPickerViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -68142,6 +68447,38 @@
             "moduleName": "AmityUIKit",
             "overriding": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AmityUIKit@objc(cs)AmityPostTextEditorViewController(im)viewWillAppear:",
+            "mangledName": "$s10AmityUIKit0A28PostTextEditorViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AmityUIKit",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -78865,6 +79202,120 @@
           },
           {
             "kind": "Var",
+            "name": "iconRadioCheckOff",
+            "printedName": "iconRadioCheckOff",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvpZ",
+            "mangledName": "$s10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvpZ",
+            "moduleName": "AmityUIKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvgZ",
+                "mangledName": "$s10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvgZ",
+                "moduleName": "AmityUIKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvsZ",
+                "mangledName": "$s10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvsZ",
+                "moduleName": "AmityUIKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvMZ",
+                "mangledName": "$s10AmityUIKit0A7IconSetV17iconRadioCheckOffSo7UIImageCSgvMZ",
+                "moduleName": "AmityUIKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "iconPollOptionAdd",
             "printedName": "iconPollOptionAdd",
             "children": [
@@ -86570,7 +87021,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Modules\/General\/Search\/ViewController\/AmitySearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2098,
+      "offset": 2558,
       "length": 4,
       "value": "true"
     },
@@ -92156,7 +92607,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Modules\/Comunity\/Member Picker\/ViewController\/AmityMemberPickerViewController.swift",
       "kind": "Array",
-      "offset": 1020,
+      "offset": 1466,
       "length": 2,
       "value": "[]"
     },
@@ -92977,502 +93428,509 @@
       "kind": "StringLiteral",
       "offset": 5788,
       "length": 22,
+      "value": "\"icon_radio_check_off\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
+      "kind": "StringLiteral",
+      "offset": 5920,
+      "length": 22,
       "value": "\"icon_poll_option_add\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 5915,
+      "offset": 6047,
       "length": 15,
       "value": "\"icon_dropdown\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6038,
+      "offset": 6170,
       "length": 19,
       "value": "\"Icon_down_chevron\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6295,
       "length": 17,
       "value": "\"icon_play_video\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6320,
+      "offset": 6452,
       "length": 17,
       "value": "\"icon_file_audio\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6445,
+      "offset": 6577,
       "length": 15,
       "value": "\"icon_file_avi\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6568,
+      "offset": 6700,
       "length": 15,
       "value": "\"icon_file_csv\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6695,
+      "offset": 6827,
       "length": 19,
       "value": "\"icon_file_default\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6822,
+      "offset": 6954,
       "length": 15,
       "value": "\"icon_file_doc\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 6945,
+      "offset": 7077,
       "length": 15,
       "value": "\"icon_file_exe\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7069,
+      "offset": 7201,
       "length": 16,
       "value": "\"icon_file_html\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7193,
+      "offset": 7325,
       "length": 15,
       "value": "\"icon_file_mov\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7316,
+      "offset": 7448,
       "length": 15,
       "value": "\"icon_file_mp3\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7439,
+      "offset": 7571,
       "length": 15,
       "value": "\"icon_file_mp4\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7563,
+      "offset": 7695,
       "length": 16,
       "value": "\"icon_file_mpeg\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7687,
+      "offset": 7819,
       "length": 15,
       "value": "\"icon_file_pdf\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7810,
+      "offset": 7942,
       "length": 15,
       "value": "\"icon_file_ppt\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 7933,
+      "offset": 8065,
       "length": 15,
       "value": "\"icon_file_ppx\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8056,
+      "offset": 8188,
       "length": 15,
       "value": "\"icon_file_rar\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8179,
+      "offset": 8311,
       "length": 15,
       "value": "\"icon_file_txt\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8302,
+      "offset": 8434,
       "length": 15,
       "value": "\"icon_file_xls\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8425,
+      "offset": 8557,
       "length": 15,
       "value": "\"icon_file_img\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8548,
+      "offset": 8680,
       "length": 15,
       "value": "\"icon_file_zip\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8680,
+      "offset": 8812,
       "length": 17,
       "value": "\"empty_reactions\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8810,
+      "offset": 8942,
       "length": 24,
       "value": "\"no_internet_connection\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 8936,
+      "offset": 9068,
       "length": 12,
       "value": "\"empty_chat\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9056,
+      "offset": 9188,
       "length": 19,
       "value": "\"icon_send_message\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9195,
+      "offset": 9327,
       "length": 32,
       "value": "\"default_private_community_chat\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9346,
+      "offset": 9478,
       "length": 31,
       "value": "\"default_public_community_chat\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9483,
+      "offset": 9615,
       "length": 21,
       "value": "\"default_direct_chat\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9613,
+      "offset": 9745,
       "length": 20,
       "value": "\"default_group_chat\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9741,
+      "offset": 9873,
       "length": 18,
       "value": "\"default_category\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 9877,
+      "offset": 10009,
       "length": 29,
       "value": "\"video_thumbnail_placeholder\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10010,
+      "offset": 10142,
       "length": 14,
       "value": "\"icon_setting\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10134,
+      "offset": 10266,
       "length": 21,
       "value": "\"icon_delete_message\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10296,
+      "offset": 10428,
       "length": 16,
       "value": "\"empty_newsfeed\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10417,
+      "offset": 10549,
       "length": 16,
       "value": "\"empty_no_posts\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10571,
+      "offset": 10703,
       "length": 19,
       "value": "\"private_user_feed\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10699,
+      "offset": 10831,
       "length": 19,
       "value": "\"default_community\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10833,
+      "offset": 10965,
       "length": 19,
       "value": "\"default_community\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 10992,
+      "offset": 11124,
       "length": 23,
       "value": "\"default_message_image\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11125,
+      "offset": 11257,
       "length": 21,
       "value": "\"icon_message_failed\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11276,
+      "offset": 11408,
       "length": 15,
       "value": "\"icon_keyboard\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11395,
+      "offset": 11527,
       "length": 10,
       "value": "\"icon_mic\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11511,
+      "offset": 11643,
       "length": 12,
       "value": "\"icon_pause\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11628,
+      "offset": 11760,
       "length": 11,
       "value": "\"icon_play\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11756,
+      "offset": 11888,
       "length": 25,
       "value": "\"icon_voice_message_grey\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 11899,
+      "offset": 12031,
       "length": 26,
       "value": "\"icon_voice_message_white\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12033,
+      "offset": 12165,
       "length": 15,
       "value": "\"icon_delete_1\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12156,
+      "offset": 12288,
       "length": 15,
       "value": "\"icon_delete_2\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12279,
+      "offset": 12411,
       "length": 15,
       "value": "\"icon_delete_3\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12402,
+      "offset": 12534,
       "length": 19,
       "value": "\"icon_chat_setting\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12549,
+      "offset": 12681,
       "length": 16,
       "value": "\"icon_post_like\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12667,
+      "offset": 12799,
       "length": 17,
       "value": "\"icon_post_liked\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12840,
+      "offset": 12972,
       "length": 24,
       "value": "\"icon_item_edit_profile\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 12976,
+      "offset": 13108,
       "length": 19,
       "value": "\"icon_item_members\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 13112,
+      "offset": 13244,
       "length": 24,
       "value": "\"icon_item_notification\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 13251,
+      "offset": 13383,
       "length": 23,
       "value": "\"icon_item_post_review\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 13389,
+      "offset": 13521,
       "length": 32,
       "value": "\"icon_community_setting_comment\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 13533,
+      "offset": 13665,
       "length": 29,
       "value": "\"icon_community_setting_post\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 13685,
+      "offset": 13817,
       "length": 31,
       "value": "\"icon_community_setting_banned\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 13881,
+      "offset": 14013,
       "length": 15,
       "value": "\"icon_comments\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14005,
+      "offset": 14137,
       "length": 16,
       "value": "\"icon_new_posts\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14128,
+      "offset": 14260,
       "length": 13,
       "value": "\"icon_reacts\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14249,
+      "offset": 14381,
       "length": 14,
       "value": "\"icon_replies\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14384,
+      "offset": 14516,
       "length": 28,
       "value": "\"icon_notification_settings\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14564,
+      "offset": 14696,
       "length": 25,
       "value": "\"icon_item_unfollow_user\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14704,
+      "offset": 14836,
       "length": 23,
       "value": "\"icon_item_report_user\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 14843,
+      "offset": 14975,
       "length": 24,
       "value": "\"icon_item_edit_profile\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 15017,
+      "offset": 15149,
       "length": 29,
       "value": "\"icon_follow_pending_request\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 15184,
+      "offset": 15316,
       "length": 11,
       "value": "\"icon_post\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/GitHub\/ONE-Krungthai-Chat-And-Social\/Amity-Social-Cloud-UIKit-iOS-OpenSource\/UpstraUIKit\/UpstraUIKit\/Utilities\/AmityIconSet.swift",
       "kind": "StringLiteral",
-      "offset": 15300,
+      "offset": 15432,
       "length": 11,
       "value": "\"icon_poll\""
     }

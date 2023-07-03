@@ -54,9 +54,11 @@ extension AmityUIKitLiveStream.LiveStreamBroadcastViewController : UIKit.UIImage
   @_Concurrency.MainActor(unsafe) @objc final public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LiveStreamPlayerViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public init(streamIdToWatch: Swift.String)
+  @_Concurrency.MainActor(unsafe) public init(streamIdToWatch: Swift.String, postID: Swift.String)
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
 }
 extension AmityUIKitLiveStream.LiveStreamPlayerViewController : AmityVideoPlayerKit.AmityVideoPlayerDelegate {
   @_Concurrency.MainActor(unsafe) public func amityVideoPlayerMediaStateChanged(_ player: AmityVideoPlayerKit.AmityVideoPlayer)
