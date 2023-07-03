@@ -12,7 +12,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
   s.version          = '1.1.4'
-  s.summary          = 'Update AmityUIKit Hide Share'
+  s.summary          = 'Update AmityUIKit 3.5.0 Custom'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,16 +29,18 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kkpp9989/KKKTBUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  #s.platform = :ios
+  #s.requires_arc = true
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
- #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # s.source_files = 'AmityFramework/uikit.zip'
   # s.source = { :http => 'https://sdk.amity.co/sdk-release/ios-uikit/2.34.3/uikit.zip'}
   # s.preserve_path = 'AmityFramework/*'
-  s.vendored_frameworks = 'AmityFramework/AmityUIKit.xcframework', 'AmityFramework/AmityUIKitLiveStream.xcframework', 'AmityFramework/SharedFrameworks_-70301671BE693C78_PackageProduct.xcframework'
+  s.vendored_frameworks = 'AmityFramework/AmityUIKit.xcframework', 'AmityFramework/AmityUIKitLiveStream.xcframework', 'AmityFramework/SharedFrameworks.xcframework'
 
   # s.resource_bundles = {
   #   'KKPodLib1' => ['KKPodLib1/Assets/*.png']
@@ -48,5 +50,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'MobileVLCKit', '~> 10.32.2'
   # s.dependency 'MobileVLCKit'
-s.dependency 'repository_name', :git => 'https://github.com/kkpp9989/amityuikit-frameworks-package.git', :branch => 'amityuikit-shared-frameworks'
+
 end
