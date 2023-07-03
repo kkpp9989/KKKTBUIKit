@@ -11,8 +11,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKKTBAmityUIKit'
-  s.version          = '1.1.4'
-  s.summary          = 'Update AmityUIKit 3.5.0 Custom'
+  s.version          = '1.1.5'
+  s.summary          = 'Update AmityUIKit v3.5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,12 +29,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kkpp9989/KKKTBUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  #s.platform = :ios
-  #s.requires_arc = true
   s.ios.deployment_target = '13.0'
-  s.swift_version = '5.0'
-  #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # s.source_files = 'AmityFramework/uikit.zip'
